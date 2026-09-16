@@ -1,0 +1,53 @@
+# Environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# TLS / certificates / private keys
+
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# SSH
+
+*.pub
+id_rsa
+id_ed25519
+
+# Terraform
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Ansible
+
+.vault_pass
+vault-password.txt
+
+# Logs
+
+*.log
+logs/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Editors
+
+.vscode/
+.idea/
+
+# Temporary files
+
+*.tmp
+*.swp
+*~
